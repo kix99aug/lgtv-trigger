@@ -1,0 +1,10 @@
+[project]
+name = "lgtv-trigger"
+version = "0.1.0"
+description = "Wake/sleep an LG webOS TV and route volume keys to a soundbar from Windows"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "pynput>=1.8.2",
+    "python-songpal>=0.16.2",
+]
